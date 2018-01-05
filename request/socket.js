@@ -9,7 +9,7 @@ window.addEventListener( `load`, function(){// Ao carregar a página.. no caso j
 	}
 
   // Da mesma forma do que é para carregar tudo, é aqui, porém ele dispara com o click sobre  botão
-	document.querySelector( `#Enviar` ).addEventListener( `click`, () => {// Arrow function, como comentei na linha 13, sem passar valor
+	document.querySelector( `#Enviar` ).addEventListener( `click`, () => {// Arrow function, como comentei na linha 7, sem passar valor
 		let mensagem = document.querySelector( `#message` ).value // Captura o atributo value do selecionado
 		let nome = document.querySelector( `#name` ).value // Da mesma forma anterior
 		// Passei a usar let, assim declaramos variáveis atualmente e no novo codestyle, let e const
