@@ -40,7 +40,10 @@ window.addEventListener( `load`, function(){// Ao carregar a página.. no caso j
 	} 
 	// E uma vez que a conexão é enserrada também é avisado, sintaxe semelhante as outras, porém substituindo o nome por onclose
 	websocket.onclose = (ev) => {
-		document.querySelector( `#avisos` ).innerHTML = `<div class="fue">Fim de conexão</div>`
+		document.querySelector( `#avisos` ).innerHTML = `<div class="fue">Você esta desconectado</div>`
 		document.getElementById( `conteudos` ).innerHTML = ``// Seria bem contraditório uma mensagem de conectado se a rede desconectou
 	} 
 })
+/* 
+	Os caracteres estão bbagunçados? use utf-8 em seu editor
+*/
