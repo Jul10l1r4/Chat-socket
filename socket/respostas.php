@@ -1,12 +1,5 @@
 <?php
-	$con = new MongoDB\Driver\Manager();
-	$query = new MongoDB\Driver\Query([], ['sort' => [ 'nome' => -1], 'limit' => 8]);
-	$row = $con->executeQuery("teste.msg", $query);
-/*
-	foreach($row as $rows){
-		echo "<span style='display:block;'>".$rows->hr." | ".$rows->nome." : ".$rows->Mensagem."</span><hr/>";
-	}
-*/
+
 $host = 'localhost'; //host
 $port = '9000'; //port
 $null = NULL; //null var
