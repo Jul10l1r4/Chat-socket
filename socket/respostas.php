@@ -29,7 +29,7 @@ while (true) {
 		perform_handshaking($header, $socket_new, $host, $port); //perform websocket handshake
 		
 		socket_getpeername($socket_new, $ip); //get ip address of connected socket
-		$response = mask(json_encode(array('type'=>'system', 'message'=>$ip.' connected'))); //prepare json data
+		$response = embaralhar(json_encode(array('type'=>'system', 'message'=>$ip.' connected'))); //prepare json data
 		send_message($response); //notify all users about new connection
 		
 		//make room for new socket
@@ -78,30 +78,30 @@ function send_message($msg){
 	return true;
 }
 //Unmask incoming framed message
-function unmask($text) {
-	$length = ord($text[1]) & 127;
+function desembaralhar($texto) {
+	$length = ord($texto[1]) & 127;
 	if($length == 126) {
-		$masks = substr($text, 4, 4);
-		$data = substr($text, 8);
+		$masks = substr($texto, 4, 4);
+		$data = substr($texto, 8);
 	}
 	elseif($length == 127) {
-		$masks = substr($text, 10, 4);
-		$data = substr($text, 14);
+		$masks = substr($texto, 10, 4);
+		$data = substr($texto, 14);
 	}
 	else {
-		$masks = substr($text, 2, 4);
-		$data = substr($text, 6);
+		$masks = substr($texto, 2, 4);
+		$data = substr($texto, 6);
 	}
 	$text = "";
 	for ($i = 0; $i < strlen($data); ++$i) {
-		$text .= $data[$i] ^ $masks[$i%4];
+		$texto .= $data[$i] ^ $masks[$i%4];
 	}
-	return $text;
+	return $texto;
 }
 //Encode message for transfer to client.
-function mask($text){
+function embaralhar($texto){
 	$b1 = 0x80 | (0x1 & 0x0f);
-	$length = strlen($text);
+	$length = strlen($texto);
 	
 	if($length <= 125)
 		$header = pack('CC', $b1, $length);
@@ -109,7 +109,7 @@ function mask($text){
 		$header = pack('CCn', $b1, 126, $length);
 	elseif($length >= 65536)
 		$header = pack('CCNN', $b1, 127, $length);
-	return $header.$text;
+	return $header.$texto;
 }
 //handshake new client./***
 function perform_handshaking($receved_header,$client_conn, $host, $port){
