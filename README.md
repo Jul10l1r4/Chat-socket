@@ -3,6 +3,22 @@
 <h2>Projeto original disponível em <a href="https://notabug.org/Jul10l1r4/Chat-Socket-PHP">@Jul10l1r4</a></h2>
 Um chat criado com motor em php no servidor, usando o socket protocol 🤘🏿 real-time 🍃 levinho.
 
+## Sumário 🔎
+
+* [Estrutura do index.php](https://github.com/Jul10l1r4/Chat-socket#-indexphp)
+
+* [Estrutura do respostas.php](https://github.com/Jul10l1r4/Chat-socket#-respostasphp)
+
+* [Estrutura do sockets.js](https://github.com/Jul10l1r4/Chat-socket#-socketsjs)
+
+* [Estrutura do arquivi disparar.php](https://github.com/Jul10l1r4/Chat-socket#-dispararphp)
+
+* [Instruções para uso](https://notabug.org/Jul10l1r4/Chat-Socket-PHP#instru%C3%A7%C3%B5es-para-uso-desse-chat-)
+
+* [Execute o chat WebSocket em PHP](https://github.com/Jul10l1r4/Chat-socket#execute-o-chat-)
+ 
+
+
 <h1>🔧 Estrutura</h1>
 <h3>🤘🏿 Index.php</h3>
    <p>
