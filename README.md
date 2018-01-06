@@ -24,3 +24,5 @@ Um chat criado com motor em php no servidor, usando o socket protocol 🤘🏿 r
     Seu nome bastante descritivo, precisa ser configurado conforme o servidor e  a versão do php, colocando a sua sintaxe
   <strong>Infelizmente esse código de disparo é compatível apenas com Unix-Likes</strong>
   </p>
+  <h3>🤘🏿 Sockets.js</h3>
+  <span> Amanhã continuo hehe</span>
