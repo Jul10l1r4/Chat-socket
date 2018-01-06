@@ -37,7 +37,7 @@ Antes de usa-lo preste atenção para alguns detalhes vitais para ele.
    É ideal que faça o teste para que não venha por seu serviço web em riscos, ou vunerabilidade, verifique a porta, notifique o firewall evite alterar ele no próprio servidor, isso é perigoso.
  <h2>🤓 Abra e estude todos os códigos</h2>
  <br/>
- Estude os códigos, pois será usado por você, <a href="https://notabug.org/Jul10l1r4/Chat-Socket-PHP/src/master/README.md#-esse-projeto-%C3%A9-livre-sob-lice%C3%A7a-gpl-3">personalize conforme sua vontade</a>, pode vender o seu alterado, pode mudar e usar pra você (Lembrando de citar de onde o tirou).<br/>
+ Estude os códigos, pois será usado por você, <a href="https://github.com/Jul10l1r4/Chat-socket/#-esse-projeto-%C3%A9-livre-sob-lice%C3%A7a-gpl-3">personalize conforme sua vontade</a>, pode vender o seu alterado, pode mudar e usar pra você (Lembrando de citar de onde o tirou).<br/>
 
  <p>
  Não esqueça de dar uma boa estudada no código disparar.php, ele tem uma função chamada <a href="http://php.net/manual/pt_BR/function.exec.php">exec()</a>, que executa códigos bash, lembre-se de executar uma vez, se for no servidor apenas uma para sempre, mude o arquivo de lugar, é perigoso que alguma pessoa execute mais vezes, isso causará problemas com os processos, caso isso aconteça você deve re-iniciar o servidor.<br/>
