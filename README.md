@@ -50,7 +50,7 @@ Antes de usa-lo preste atenção para alguns detalhes vitais para ele.
  Onde você verá o processo que provavelmente chame-se php e ele estará repetido, então você finalizará usando seu pid:
  
  ```bash
-    kill <<Se numero do processo pid>>
+    kill 2018 # 2018, ponha o numero do pid identificado, isso é apenas um exemplo
  ```
  <p>
  No arquivo <code>respostas.php</code> edite a variável responsável por dar o local de onde será o socket, e o numero da porta será aberta.
