@@ -5,7 +5,8 @@ Um chat criado com motor em php no servidor, usando o socket protocol 🤘🏿 r
 <h1>Estrutura</h1>
 <h3>Index.php</h3>
 <p> Nesse arquivo tem o necessário para a conexão em javascript e estilização em css como referencia em sí, vale lembrar para 
-  permitir as caracterações no arquivo no dentro do <code> head </code>
-  ```
+  permitir as caracterações no arquivo no dentro do <code> head </code>.
+  
+  `
     <meta charset="utf-8"/>
-  ```
+  `
