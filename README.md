@@ -23,7 +23,7 @@ Nesse arquivo tem o necessário para a conexão em javascript e estilização em
   Esse arquivo possui 137 linhas de códigos comentadas e explicativas para ajudar a configurar conforme seja o desejo de sua aplicação
  
   <h3>🤘🏿 Disparar.php</h3>
- Seu nome bastante descritivo, precisa ser configurado conforme o servidor e  a versão do php, colocando a sua      sintaxe. **infelizmente esse código de disparo é compatível apenas com Unix-Likes.**
+ Seu nome bastante descritivo, precisa ser configurado conforme o servidor e  a versão do php, colocando a sua      sintaxe. <strong>infelizmente esse código de disparo é compatível apenas com Unix-Likes</strong>.
  
   <h3>🤘🏿 Sockets.js</h3>
 
@@ -53,8 +53,8 @@ Antes de usa-lo preste atenção para alguns detalhes vitais para ele.
     Hostname@Server:~# kill <<Se numero do processo pid>>
  ```
  <p>
- No arquivo <code>respostas.php</code> edite a variável responsável por dar o local de onde será o socket, e o numero da porta será aberta
+ No arquivo <code>respostas.php</code> edite a variável responsável por dar o local de onde será o socket, e o numero da porta será aberta.
  </p>
  
  <h2>🐏 Esse projeto é livre sob liceça GPL-3</h2>
- Use e abuse, cite-me e estará tudo certo 😸. Leia sobre a licença <a href="https://www.gnu.org/licenses/gpl-3.0-standalone.html">GPL-3</a>
+ Use e abuse, cite-me e estará tudo certo 😸. Leia sobre a licença <a href="https://www.gnu.org/licenses/gpl-3.0-standalone.html">GPL-3</a>.
