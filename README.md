@@ -1,6 +1,6 @@
 # 🐘 Chat-socket | PHP7
 <br/>   Suportado nos navegadores a partir de 2017, nativas do firefox desde as versões de 2016, [veja as relações de suportes](https://kangax.github.io/compat-table/es6/). 
-<h2>🏆 Projeto oficial</h2>
+<h2>Projeto original disponível em <a href="https://notabug.org/Jul10l1r4/Chat-Socket-PHP">@Jul10l1r4</a></h2>
 Um chat criado com motor em php no servidor, usando o socket protocol 🤘🏿 real-time 🍃 levinho.
 
 <h1>🔧 Estrutura</h1>
