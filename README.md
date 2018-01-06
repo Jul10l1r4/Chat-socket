@@ -13,7 +13,7 @@ Um chat criado com motor em php no servidor, usando o socket protocol 🤘🏿 r
         ...
   ```
   <p> 
-     obs.: Sinta-se livre para me mandar pul request e ajeitar esse designer 🙊
+     obs.: Sinta-se livre para me mandar pull request e ajeitar esse designer 🙊
   </p>
   <h3>🤘🏿 Respostas.php</h3>
   <p>
@@ -28,3 +28,4 @@ Um chat criado com motor em php no servidor, usando o socket protocol 🤘🏿 r
   <p>
     Script moderno usando o <a href="https://github.com/airbnb/javascript#arrow-functions">arrow function</a> (segundo o padrão do codestyle <a href="https://github.com/airbnb/javascript">airbnb</a>. Esse script faz um tratamento de funções de socket, abre conexão, precisa ser configurada a porta e o endereço de onde deseja ser aberta e todas as configurações de saídas👌🏽.
   </p>
+<h1>🎖 Instruções para uso desse chat</h1>
