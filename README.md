@@ -25,4 +25,6 @@ Um chat criado com motor em php no servidor, usando o socket protocol 🤘🏿 r
   <strong>Infelizmente esse código de disparo é compatível apenas com Unix-Likes</strong>
   </p>
   <h3>🤘🏿 Sockets.js</h3>
-  <span> Amanhã continuo hehe</span>
+  <p>
+    Script moderno usando o <a href="https://github.com/airbnb/javascript#arrow-functions">arrow function</a> (segundo o padrão do codestyle <a href="https://github.com/airbnb/javascript">airbnb</a>. Esse script faz um tratamento de funções de socket, abre conexão, precisa ser configurada a porta e o endereço de onde deseja ser aberta e todas as configurações de saídas👌🏽.
+  </p>
