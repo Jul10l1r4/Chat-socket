@@ -10,7 +10,7 @@ Nesse arquivo tem o necessário para a conexão em javascript e estilização em
   permitir as caracterações no arquivo no dentro do <code>head</code>
   <br/>
   
- ```
+ ```html
     <meta charset="utf-8"/>
  ```
  
@@ -44,12 +44,12 @@ Antes de usa-lo preste atenção para alguns detalhes vitais para ele.
  </p>
  Caso tenha esperiencia com o unix-like, você pode ver todos os processos usando o programa <code>top</code>:
 
-```
+```bash
     Hostname@Server:~$ top
 ```
  Onde você verá o processo que provavelmente chame-se php e ele estará repetido, então você finalizará usando seu pid:
  
- ```
+ ```bash
     Hostname@Server:~# kill <<Se numero do processo pid>>
  ```
  <p>
