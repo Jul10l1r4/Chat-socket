@@ -29,32 +29,47 @@ Nesse arquivo tem o necessário para a conexão em javascript e estilização em
 
 Script moderno usando o [arrow function](https://github.com/airbnb/javascript#arrow-functions) (segundo o padrão do codestyle [airbnb](https://github.com/airbnb/javascript). Esse script faz um tratamento de funções de socket, abre conexão, precisa ser configurada a porta e o endereço de onde deseja ser aberta e todas as configurações de saídas👌🏽.
 
-<h1>🎖 Instruções para uso desse chat</h1>
-<p>
-Antes de usa-lo preste atenção para alguns detalhes vitais para ele.
-</p>
-<h2>🙇🏾‍ Antes de fazer qualquer coisa em um servidor, <strong>teste em sua maquina local</strong></h2>
-   É ideal que faça o teste para que não venha por seu serviço web em riscos, ou vunerabilidade, verifique a porta, notifique o firewall evite alterar ele no próprio servidor, isso é perigoso.
- <h2>🤓 Abra e estude todos os códigos</h2>
- <br/>
- Estude os códigos, pois será usado por você, <a href="https://github.com/Jul10l1r4/Chat-socket/#-esse-projeto-%C3%A9-livre-sob-lice%C3%A7a-gpl-3">personalize conforme sua vontade</a>, pode vender o seu alterado, pode mudar e usar pra você (Lembrando de citar de onde o tirou).<br/>
+## Execute o chat 👿
 
- <p>
- Não esqueça de dar uma boa estudada no código disparar.php, ele tem uma função chamada <a href="http://php.net/manual/pt_BR/function.exec.php">exec()</a>, que executa códigos bash, lembre-se de executar uma vez, se for no servidor apenas uma para sempre, mude o arquivo de lugar, é perigoso que alguma pessoa execute mais vezes, isso causará problemas com os processos, caso isso aconteça você deve re-iniciar o servidor.<br/>
- </p>
- Caso tenha esperiencia com o unix-like, você pode ver todos os processos usando o programa <code>top</code>:
+*Atenção*: Não é indicado usa-la em um servidor online antes de configura-la para usar em sua aplicação.
+
+Para rodar a aplicação você precisa navegar onde o servidor esta rodando e baixar para isso execute no seu unix-like:
 
 ```bash
-    top
+    $ wget https://notabug.org/Jul10l1r4/Chat-Socket-PHP/archive/master.zip && unzip master.zip && cd chat-socket-php
 ```
- Onde você verá o processo que provavelmente chame-se php e ele estará repetido, então você finalizará usando seu pid:
+
+ou
+
+```bash
+    $ git clone https://notabug.org/Jul10l1r4/Chat-Socket-PHP.git && cd Chat-Socket-PHP
+```
+
+Edite os arquivos configure-os, já que estais no terminal, executaremos a nossa aplicação
+
+```
+    $ php socket/respostas.php 
+```
+
+E agora, faça a festa, abra o browser e navegue até a aplicação e abra:
+
+<img src="https://notabug.org/Jul10l1r4/Chat-Socket-PHP/raw/master/Print-readme/screenshot.png" />
+
+Edite o arquivo `disparar.php` para não precisar executar através do terminal, para fazer isso aperte `control + c` (isso parará a execução do serviço de socket que foi executado nos códigos anteriores), você pode digitar os seguintes comandos:
+
+```bash 
+    $ pwd
+```
  
- ```bash
-    kill 2018 # 2018, ponha o numero do pid identificado, isso é apenas um exemplo
+ Copie a informação alí, você pode marcar o texto e apertar `control + shift + c`, agora feche o terminal e abra o arquivo `disparar.php` na pasta do servidor em `Chat-Socket-PHP/disparar.php` use o editor de sua preferência e no arquivo aberto edite a informação:
+ 
+ ```php	
+
+    <?php //Não use espaçamento entre o texto colado e o resto da string
+      exec( "/usr/bin/php Cole aqui o a informação pega no código acima/socket/respostas.php" );
  ```
- <p>
- No arquivo <code>respostas.php</code> edite a variável responsável por dar o local de onde será o socket, e o numero da porta será aberta.
- </p>
  
- <h2>🐏 Esse projeto é livre sob liceça GPL-3</h2>
- Use e abuse, cite-me e estará tudo certo 😸. Leia sobre a licença <a href="https://www.gnu.org/licenses/gpl-3.0-standalone.html">GPL-3</a>.
+ Cole a informação copiada pelo terminal no lugar indicado, salve e fim, agora basta identificar o arquivo no seu browser, que provavelmente será em `http://localhost/Chat-Socket-PHP/disparar.php`. 
+  
+## Esse projeto é livre sob liceça GPL-3 🐏
+ Use e abuse, cite-me e estará tudo certo 😸. Leia sobre a licença [GPL-3](https://www.gnu.org/licenses/gpl-3.0-standalone.html)
