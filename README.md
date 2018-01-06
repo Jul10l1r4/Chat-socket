@@ -45,12 +45,12 @@ Antes de usa-lo preste atenção para alguns detalhes vitais para ele.
  Caso tenha esperiencia com o unix-like, você pode ver todos os processos usando o programa <code>top</code>:
 
 ```bash
-    Hostname@Server:~$ top
+    top
 ```
  Onde você verá o processo que provavelmente chame-se php e ele estará repetido, então você finalizará usando seu pid:
  
  ```bash
-    Hostname@Server:~# kill <<Se numero do processo pid>>
+    kill <<Se numero do processo pid>>
  ```
  <p>
  No arquivo <code>respostas.php</code> edite a variável responsável por dar o local de onde será o socket, e o numero da porta será aberta.
