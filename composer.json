@@ -1,0 +1,14 @@
+{
+  "name": "jul10l1r4/chat-socket",
+  "type": "project",
+  "minimum-stability": "dev",
+  "license": "GPL-3",
+  "authors": [
+    {
+      "name": "Julio Lira",
+      "email": "jul10l1r4@gmail.com"
+    }
+  ];
+
+
+}
