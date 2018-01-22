@@ -128,10 +128,10 @@ function perform_handshaking($receved_header,$client_conn, $host, $port){
 	$secAccept = base64_encode(pack('H*', sha1($secKey . '258EAFA5-E914-47DA-95CA-C5AB0DC85B11')));
 	// Segudo o padrão se deve mandar a hash sha1 em hexadecimal para base64, esse é o processo
 	$upgrade  = "HTTP/1.1 101 Web Socket Protocol Handshake\r\n" .// cabeçalho tradicional
-	"Upgrade: websocket\r\n" .
-	"Connection: Upgrade\r\n" .
-	"WebSocket-Origin: $host\r\n" .
-	"WebSocket-Location: ws://$host:$port/demo/shout.php\r\n".
-	"Sec-WebSocket-Accept:$secAccept\r\n\r\n";
+	"Upgrade: websocket\r\n" .// Obrigatório
+	"Connection: Upgrade\r\n" .// Obrigatório
+	"WebSocket-Origin: $host\r\n" .// Não obrigatório
+	"WebSocket-Location: ws://$host:$port\r\n".// Essa informação no é obrigatória
+	"Sec-WebSocket-Accept:$secAccept\r\n\r\n";// obrigatório
 	socket_write($client_conn,$upgrade,strlen($upgrade));// Envia, para sintaxe ver comentário da linha 76
 }
