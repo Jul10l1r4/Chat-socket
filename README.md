@@ -68,6 +68,7 @@ Edite os arquivos configure-os, já que estais no terminal, executaremos a nossa
 ```
 
 E agora, faça a festa, abra o browser e navegue até a aplicação e abra:
+
 ![Vüilar](https://notabug.org/Jul10l1r4/Chat-Socket-PHP/raw/master/Print-readme/screenshot.png)
 
 Edite o arquivo `disparar.php` para não precisar executar através do terminal, para fazer isso aperte `control + c` (isso parará a execução do serviço de socket que foi executado nos códigos anteriores), você pode digitar os seguintes comandos:
