@@ -86,6 +86,11 @@ Edite o arquivo `disparar.php` para não precisar executar através do terminal,
  ```
  
  Cole a informação copiada pelo terminal no lugar indicado, salve e fim, agora basta identificar o arquivo no seu browser, que provavelmente será em `http://localhost/Chat-Socket-PHP/disparar.php`. 
-  
+
+# Veja o artigo
+
+Quer mais detalhes? então, fiz um artigo falando detalhadamentes sobre a aplicação em sí e seu funcionamento veja em [@jul10l1r4](https://rootthings.org/artigos/PHP/Chat-web-socket/)
+
+ 
 ## Esse projeto é livre sob liceça GPL-3 🐏
  Use e abuse, cite-me e estará tudo certo 😸. Leia sobre a licença [GPL-3](https://www.gnu.org/licenses/gpl-3.0-standalone.html)
