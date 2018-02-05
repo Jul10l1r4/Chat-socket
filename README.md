@@ -3,6 +3,7 @@
 <h2>Projeto original disponível em <a href="https://notabug.org/Jul10l1r4/Chat-Socket-PHP">@Jul10l1r4</a></h2>
 Um chat criado com motor em php no servidor, usando o socket protocol 🤘🏿 real-time 🍃 levinho.
 
+
 > Veja um artigo que ensina detalhadamente o funcionamento aprofundadamente [@rootthings](https://rootthings.org/artigos/PHP/Chat-web-socket/)
 
 ## Sumário 🔎
