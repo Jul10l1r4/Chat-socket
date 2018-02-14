@@ -25,10 +25,13 @@ Um chat criado com motor em php no servidor, usando o socket protocol 🤘🏿 r
 
 # 🔧 Estrutura
 ### 🤘🏿 Index.php
-   <p>
+ 
+ 
 Nesse arquivo tem o necessário para a conexão em javascript e estilização em css como referencia em sí, vale lembrar para 
   permitir as caracterações no arquivo no dentro do `head`
-  <br/>
+
+
+
   
  ```html
     <meta charset="utf-8"/>
